@@ -1,0 +1,15 @@
+<%= link_to image_tag("course_1.png", alt: "Rails") %>
+<h1> <%= @course.name %> </h1>
+
+
+<div class="span8">
+    <% if @course.cvideos.any? %>
+      <h3>Videos (<%= @course.cvideos.count %>)</h3>
+      <ol class="microposts">
+        <%= render @cvideos %>
+      </ol>
+      <%= will_paginate @cvideos %>
+    <% end %>
+  </div>
+
+<iframe width="560" height="315" src="//www.youtube.com/embed/qvloRL_RB9w" frameborder="0" allowfullscreen></iframe>

@@ -1,0 +1,9 @@
+<h1>Courses</h1>
+
+<ul class="users">
+  <% @courses.each do |course| %>
+    <li>
+      <%= link_to course.name , course %>
+    </li>
+  <% end %>
+</ul>
