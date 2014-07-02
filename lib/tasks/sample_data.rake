@@ -19,5 +19,15 @@ namespace :db do
                    narrow_category: narrow_category,
                    no_std_enrolled: no_std_enrolled)
     end
+
+    course = Course.find(1)
+    course.cvideos.create!(v_link: "https://www.youtube.com/watch?v=5dbEhBKGOtY", v_desc: "David Guetta - Play Hard" , video_id: 1)
+    course.cvideos.create!(v_link: "https://www.youtube.com/watch?v=5dbEhBKGOtY", v_desc: "David Guetta - Play Hard" , video_id: 2)
+
+    course2 = Course.find(2)
+    course2.cvideos.create!(v_link: "https://www.youtube.com/watch?v=5dbEhBKGOtY", v_desc: "David Guetta - Play Hard" , video_id: 1)
+    course2.cvideos.create!(v_link: "https://www.youtube.com/watch?v=5dbEhBKGOtY", v_desc: "David Guetta - Play Hard" , video_id: 2)
+
+
   end
 end
