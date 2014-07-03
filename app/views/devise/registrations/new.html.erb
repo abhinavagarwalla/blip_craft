@@ -13,11 +13,11 @@
     <%= f.password_field :password_confirmation, autocomplete: "off" %></div>
 
     
-  <div><%= f.label :type %><br />
-    <%= f.label :type, "Student", :value => "true" %>
-    <%= f.radio_button :type, true %>
-    <%= f.label :type, "Teacher", :value => "false" %>
-    <%= f.radio_button :type, false, :checked => true %>
+  <div><%= f.label :type_id %><br />
+    <%= f.label :type_id, "Student", :value => "true" %>
+    <%= f.radio_button :type_id, true,  :checked => true %>
+    <%= f.label :type_id, "Teacher", :value => "false" %>
+    <%= f.radio_button :type_id, false %>
 
 	</div>
 
