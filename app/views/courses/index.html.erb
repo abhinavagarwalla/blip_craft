@@ -1,5 +1,24 @@
 <h1>Courses</h1>
 
+<script src="//static.opentok.com/webrtc/v2.2/js/opentok.min.js" ></script>
+
+<script type="text/javascript">
+  var apiKey    = "44885552";
+  var sessionId = "fe6a6a8157c19d7ab8a4e5d4e8e72762201a5f0c";
+  var token     = "T1==cGFydG5lcl9pZD00NDg4NTU1MiZzaWc9MmQ3ZmZhMWMxMjNjMTk0NTUzOTAyNjBkMTQ4ZGJlNTY5OGExYjdkNDpyb2xlPXN1YnNjcmliZXImc2Vzc2lvbl9pZD0xX01YNDBORGc0TlRVMU1uNS1SbkpwSUVwMWJDQXdOQ0F3TXpveE1Ub3lNaUJRUkZRZ01qQXhOSDR3TGpNd05UVTBOalItZmcmY3JlYXRlX3RpbWU9MTQwNDQ2ODY5OSZub25jZT0wLjIwMTQzNzc4MzA4OTAzNTQ4JmV4cGlyZV90aW1lPTE0MDQ0NzIyNDM=";
+ 
+  var session = OT.initSession(apiKey, sessionId);
+ 
+  session.on("streamCreated", function(event) {
+    session.subscribe(event.stream);
+  });
+ 
+  session.connect(token, function(error) {
+    var publisher = OT.initPublisher();
+    session.publish(publisher);
+  });
+</script>
+
 <ul class="users">
   <% @courses.each do |course| %>
     <li>
