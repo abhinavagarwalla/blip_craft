@@ -1,6 +1,6 @@
 <%= link_to image_tag("course_1.png", alt: "Rails") %>
 <h1> <%= @course.name %> </h1>
-
+<h2> <%= @students.count %> </h2>
 
 <div class="span8">
     <% if @course.cvideos.any? %>
