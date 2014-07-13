@@ -1,0 +1,20 @@
+<% provide(:title, @student.name) %>
+<h1> hello, this is the show page from students asad</h1>
+
+<div class="row">
+  <aside class="span4">
+    <section>
+      <h1>
+        <%= @student.name %>
+      </h1>
+    </section>
+  </aside>
+</div>
+
+<ul>
+  <% @courses.each do |course| %>
+    <li>
+      <%= link_to course.name, course %>
+    </li>
+  <% end %>
+</ul>

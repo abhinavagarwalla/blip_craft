@@ -11,10 +11,7 @@ group :test do
 end
 
 gem 'bcrypt-ruby', '3.1.2'
-gem 'bootstrap-sass'
 gem 'font-awesome-sass-rails'
-#gem 'bootstrap-rails'
-#gem 'twitter-bootstrap-rails'
 gem 'sprockets'
 gem 'pg'
 gem 'faker', '1.1.2'
