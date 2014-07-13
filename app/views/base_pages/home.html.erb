@@ -1,52 +1,177 @@
 <%= provide(:title, "BlipCraft") %>
 
-    <!-- header -->
-
-    <!-- Home page big image -->
+   <!-- Home page big image -->
      <!-- ==== HEADERWRAP ==== -->
      <div id="wrapper">
         <div id="headerwrap" id="home" name="home">
             <header class="clearfix">
-                   
+                  <div class="container">  
+                    <!--<p>"Some Tag Line Here"</p>-->
+                    <br />
+                    <br />
+                    <br />
+              
+               <!--
                 <form class="form-inline" role="form" style="vertical-align:middle;">
                     <div class="form-group">
                         <input placeholder="Search Courses" id="searchtext" class="form-control input-lg span6" type="text">
                     </div>
                     <button type="submit" class="btn btn-warning btn-lg">Search</button>
-                </form>
+ 
+                </form> -->
+ <div class="col-md-8 col-md-offset-2">
+  <nav class="navbar navbar-default" role="navigation">
+  <div class="navbar-header">              
+ <form class="navbar-form" action="#" role="search">
+      <div class="form-group">
+        <div class="input-group">
+          <input class="form-control" id="navbarInput-01" type="search" placeholder="Search Courses">
+          <span class="input-group-btn">
+            <button type="submit" class="btn">Search</button>
+          </span>            
+        </div>
+      </div>               
+    </form>
+
+</nav>
+</div>
+</div>      
             </header>       
         </div><!-- /headerwrap -->
-    
+    </div>
     <!-- Slider Area -->
 
     <!-- Servises Area -->
 
     <section id="recent-works">
         <div class="container">
-            <div class="row">
-                <div class="col-md-3">
-                    <h3>Our Popular Courses</h3>
-                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-                    <div class="btn-group">
-                        <a class="btn btn-danger" href="#scroller" data-slide="prev"><i class="icon-angle-left"></i></a>
-                        <a class="btn btn-danger" href="#scroller" data-slide="next"><i class="icon-angle-right"></i></a>
-                    </div>
-                    <p class="gap"></p>
+            <div class="col-md-6">
+                <div class="rows">
+                                <div class="col-md-8">
+                                    <h6>Our Popular Courses</h6>
+                                 </div>   
+                                      <div class="btn-group" >
+                                            <a class="btn btn-danger" href="#scroller" data-slide="prev"><i class="icon-angle-left"></i></a>
+                                            <a class="btn btn-danger" href="#scroller" data-slide="next"><i class="icon-angle-right"></i></a>
+                                      </div>  
+                                 <p class="gap"></p>
                 </div>
-                <div class="col-md-9">
-                    <div id="scroller" class="carousel slide">
+                <div class="rows">
+                    <div class="col-md-12">
+                        <div id="scroller" class="carousel slide">
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <div class="row">
+                                        <div class="col-xs-4">
+                                            <div class="portfolio-item">
+                                                <div class="item-inner">
+                                                    <%= image_tag("portfolio/recent/item1.png") %>
+                                                       <h4 class="text-bold"><a href="#c4">Course Title 1</a></h4>
+                                                    <p>Write the course discription here</p>
+                                                    <div class="overlay">
+                                                        <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="images/portfolio/full/item1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>                            
+                                        <div class="col-xs-4">
+                                            <div class="portfolio-item">
+                                                <div class="item-inner">
+                                                    <%= image_tag("portfolio/recent/item2.png") %>
+                                                       <h4 class="text-bold"><a href="#c4">Course Title 2</a></h4>
+                                                    <p>Write the course discription here</p>
+                                                    <div class="overlay">
+                                                        <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="images/portfolio/full/item1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>                            
+                                        <div class="col-xs-4">
+                                            <div class="portfolio-item">
+                                                <div class="item-inner">
+                                                    <%= image_tag("portfolio/recent/item3.png") %>
+                                                       <h4 class="text-bold"><a href="#c4">Course Title 3</a></h4>
+                                                    <p>Write the course discription here</p>
+                                                    <div class="overlay">
+                                                        <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="images/portfolio/full/item1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div><!--/.row-->
+                                </div><!--/.item-->
+                                <div class="item">
+                                    <div class="row">
+                                        <div class="col-xs-4">
+                                            <div class="portfolio-item">
+                                                <div class="item-inner">
+                                                    <%= image_tag("portfolio/recent/item1.png") %>
+                                                       <h4 class="text-bold"><a href="#c4">Course Title 4</a></h4>
+                                                    <p>Write the course discription here</p>
+                                                    <div class="overlay">
+                                                        <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="images/portfolio/full/item2.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-4">
+                                            <div class="portfolio-item">
+                                                <div class="item-inner">
+                                                    <%= image_tag("portfolio/recent/item2.png") %>
+                                                       <h4 class="text-bold"><a href="#c4">Course Title 5</a></h4>
+                                                    <p>Write the course discription here</p>
+                                                    <div class="overlay">
+                                                        <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="images/portfolio/full/item1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>                            
+                                        <div class="col-xs-4">
+                                            <div class="portfolio-item">
+                                                <div class="item-inner">
+                                                    <%= image_tag("portfolio/recent/item3.png") %>
+                                                      <h4 class="text-bold"><a href="#c4">Course Title 6</a></h4>
+                                                    <p>Write the course discription here</p>                                             <div class="overlay">
+                                                        <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="images/portfolio/full/item1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div><!--/.item-->
+                            </div>
+                        </div>                    
+            </div><!--/.row-->
+        </div><!-- rows-->
+    </div>
+
+<div class="col-md-6">
+            <div class="rows">
+                    <div class="col-md-8">
+                        <h6>Our Latest Courses</h6>
+                     </div>   
+                        <div class="btn-group" >
+                            <a class="btn btn-danger" href="#scroller1" data-slide="prev"><i class="icon-angle-left"></i></a>
+                            <a class="btn btn-danger" href="#scroller1" data-slide="next"><i class="icon-angle-right"></i></a>
+                       </div>
+                       <div> 
+                        <p class="gap"></p>
+                        </div>
+                    </div>
+            <div class="rows">
+                <div class="col-md-12">
+                    <div id="scroller1" class="carousel slide">
                         <div class="carousel-inner">
                             <div class="item active">
                                 <div class="row">
                                     <div class="col-xs-4">
                                         <div class="portfolio-item">
                                             <div class="item-inner">
-                                                <%= image_tag("portfolio/recent/item1.png", :alt => "Course 1") %>
-                                                <h5>
-                                                    Nova - Corporate site template
-                                                </h5>
-                                                <div class="overlay">
-                                                    <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="portfolio/full/item1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
+                                                <%= image_tag("portfolio/recent/item1.png") %>
+                                                    <h4 class="text-bold"><a href="#c4">Course Title 1</a></h4>
+                                                <p>Write the course discription here</p>
+                                            <div class="overlay">
+                                                <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="images/portfolio/full/item1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -54,12 +179,11 @@
                                     <div class="col-xs-4">
                                         <div class="portfolio-item">
                                             <div class="item-inner">
-                                                <%= image_tag("portfolio/recent/item3.png", :alt => "Course 1") %>
-                                                <h5>
-                                                    Fornax - Apps site template
-                                                </h5>
-                                                <div class="overlay">
-                                                    <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="portfolio/full/item1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
+                                                <%= image_tag("portfolio/recent/item3.png") %>
+                                                   <h4 class="text-bold"><a href="#c4">Course Title 2</a></h4>
+                                                     <p>Write the course discription here</p>              
+                                                       <div class="overlay">
+                                                    <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="images/portfolio/full/item1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -67,12 +191,11 @@
                                     <div class="col-xs-4">
                                         <div class="portfolio-item">
                                             <div class="item-inner">
-                                                <%= image_tag("portfolio/recent/item2.png", :alt => "Course 2") %>
-                                                <h5>
-                                                    Flat Theme - Business Theme
-                                                </h5>
+                                                <%= image_tag("portfolio/recent/item3.png") %>
+                                                   <h4 class="text-bold"><a href="#c4">Course Title 3</a></h4>
+                                                   <p>Write the course discription here</p>
                                                 <div class="overlay">
-                                                    <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="portfolio/full/item1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
+                                                    <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="images/portfolio/full/item1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -84,25 +207,23 @@
                                     <div class="col-xs-4">
                                         <div class="portfolio-item">
                                             <div class="item-inner">
-                                                <%= image_tag("portfolio/recent/item2.png", :alt => "Course 1") %>
-                                                <h5>
-                                                    Flat Theme - Business Theme
-                                                </h5>
-                                                <div class="overlay">
-                                                    <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="portfolio/full/item1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
+                                                <%= image_tag("portfolio/recent/item2.png") %>
+                                                    <h4 class="text-bold"><a href="#c4">Course Title 4</a></h4>
+                                                    <p>Write the course discription here</p>
+                                                        <div class="overlay">
+                                                    <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="images/portfolio/full/item1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-xs-4">
                                         <div class="portfolio-item">
-                                            <div class="item-inner">
-                                                <%= image_tag("portfolio/recent/item1.png", :alt => "Course 1") %>
-                                                <h5>
-                                                    Nova - Corporate site template
-                                                </h5>
-                                                <div class="overlay">
-                                                    <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="portfolio/full/item1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
+                                            <div class="item-inner">    
+                                                <%= image_tag("portfolio/recent/item1.png") %>
+                                                    <h4 class="text-bold"><a href="#c4">Course Title 5</a></h4>
+                                                    <p>Write the course discription here</p>
+                                                     <div class="overlay">
+                                                    <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="images/portfolio/full/item1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -110,12 +231,11 @@
                                     <div class="col-xs-4">
                                         <div class="portfolio-item">
                                             <div class="item-inner">
-                                                <%= image_tag("portfolio/recent/item3.png", :alt => "Course 1") %>
-                                                <h5>
-                                                    Fornax - Apps site template
-                                                </h5>
+                                                <%= image_tag("portfolio/recent/item3.png") %>
+                                               <h4 class="text-bold"><a href="#c4">Course Title 6</a></h4>
+                                                <p>Write the course discription here</p>
                                                 <div class="overlay">
-                                                    <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="portfolio/full/item1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
+                                                    <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="images/portfolio/full/item1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -127,51 +247,217 @@
                 </div>
             </div><!--/.row-->
         </div>
+</div>
     </section><!--/#recent-works-->
 
-    <section id="testimonial" class="alizarin">
+
+
+
+<section id="courses">
+<nav class="navbar navbar-inverse navbar-embossed" role="navigation">
+<!-- Navbar content -->
+            <div class="container">
+                    <div class="nav-two">
+                        <div class="row row-centered">
+                            <div class="col-md-1 col-centered"></div>
+                            <div class="col-md-2 col-centered"><i class="fa fa-paw fa-3x cntr"></i><br /><p class="cntr"><a href="#">Art</a></p></div>
+                            <div class="col-md-2 col-centered"><i class="fa fa-music fa-3x cntr"></i><br /><p class="cntr"><a href="#">Music</a></p></div>
+                            <div class="col-md-2 col-centered"><i class="fa fa-pencil fa-3x cntr"></i><br /><p class="cntr"><a href="#">Designing</a></p></div>
+                            <div class="col-md-2 col-centered"><i class="fa fa-cubes fa-3x cntr"></i><br /><p class="cntr"><a href="#">Life Style</a></p></div>
+                            <div class="col-md-2 col-centered"><i class="fa fa-camera fa-3x cntr"></i><br /><p class="cntr"><a href="#">Photography</a></p></div>
+                            <div class="col-md-1 col-centered"></div>
+                        </div>
+                   </div>
+            </div>
+</nav>
+</section>
+    <section id="upcoming" class="alizarin">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="center">
-                        <h2>What our students say</h2>
-                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-                    </div>
-                    <div class="gap"></div>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <blockquote>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                                <small>Someone famous in <cite title="Source Title">Source Title</cite></small>
-                            </blockquote>
-                            <blockquote>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                                <small>Someone famous in <cite title="Source Title">Source Title</cite></small>
-                            </blockquote>
-                        </div>
-                        <div class="col-md-6">
-                            <blockquote>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                                <small>Someone famous in <cite title="Source Title">Source Title</cite></small>
-                            </blockquote>
-                            <blockquote>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                                <small>Someone famous in <cite title="Source Title">Source Title</cite></small>
-                            </blockquote>
-                        </div>
-                    </div>
+                <div class="rows">
+                    <p> Upcoming Courses</p>
                 </div>
+                <div class="rows">
+                    <div class="col-md-7">
+                        <div class="col-md-12">
+                            <div class="col-xs-12">
+                                            <div class="portfolio-item">
+                                                <div class="item-inner">
+                                                    <%= image_tag("portfolio/recent/item2.png") %>
+                                                        <h4 class="text-bold"><a href="#c4">Course Title 1</a></h4>
+                                                        <p>Write the course discription here</p>
+                                                            <div class="overlay">
+                                                        <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="images/portfolio/full/item1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                            </div>
+                            <div class="gap"></div>
+                    <div class="col-md-12">
+                            <div class="col-xs-12">
+                                            <div class="portfolio-item">
+                                                <div class="item-inner">
+                                                    <%= image_tag("portfolio/recent/item2.png") %>
+                                                        <h4 class="text-bold"><a href="#c4">Course Title 2</a></h4>
+                                                        <p>Write the course discription here</p>
+                                                            <div class="overlay">
+                                                        <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="images/portfolio/full/item1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                            </div>
+                    </div>
+                   
+                    <div class="col-md-5">
+
+                        <div class="col-md-12">
+                            <div class="col-xs-12">
+                                            <div class="portfolio-item">
+                                                <div class="item-inner">
+                                                    <%= image_tag("portfolio/recent/item3.png") %>
+                                                        <h6 class="text-bold"><a href="#c4">Course Title 3</a></h6>
+                                                        <h6>Write the course discription here</h6>
+                                                            <div class="overlay">
+                                                        <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="images/portfolio/full/item1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                              </div>
+                              <div class="col-md-12">
+                                            <div class="col-xs-12">
+                                                            <div class="portfolio-item">
+                                                                <div class="item-inner">
+                                                                    <%= image_tag("portfolio/recent/item2.png") %>
+                                                                        <h6 class="text-bold"><a href="#c4">Course Title 4</a></h6>
+                                                                        <p>Write the course discription here</p>
+                                                                            <div class="overlay">
+                                                                        <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="images/portfolio/full/item1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                             </div>
+                                <div class="col-md-12">
+                                            <div class="col-xs-12">
+                                                            <div class="portfolio-item">
+                                                                <div class="item-inner">
+                                                                    <%= image_tag("portfolio/recent/item2.png") %>
+                                                                        <h6 class="text-bold"><a href="#c4">Course Title 5</a></h6>
+                                                                        <p>Write the course discription here</p>
+                                                                            <div class="overlay">
+                                                                        <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="images/portfolio/full/item1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                            </div>
+                                </div>
+                             
+                       </div>
+                        
+                </div>
+</div>
+
+</section>
+
+
+
+
+    <!-- Special videos -->
+    <div class="container">
+         <div class="col-md-8 col-md-offset-2 col-sm-3">
+            <div class="tile-big">
+                <a class="mask" href="#">
+                      <h1> Popular Videos</h1>
+                      <div class="portfolio-item">
+                            <div class="item-inner">
+                                <img class="img-responsive" src="images/portfolio/recent/item2.png" alt="">
+                                    <h6 class="text-bold"><a href="#c4">Video Tile 1</a></h6>
+                                    <p>Write the video discription here</p>
+                                        <div class="overlay">
+                                    <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="images/portfolio/full/item1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                </a>
             </div>
         </div>
-    </section><!--/#testimonial-->
+        <br />
+        <br />
+    <div class="row row-centered">
+        <div class="col-xs-3 col-centered">
+            <div class="tile-small">
+                <div class="portfolio-item">
+                            <div class="item-inner">
+                                <img class="img-responsive" src="images/portfolio/recent/item2.png" alt="">
+                                    <h6 class="text-bold"><a href="#c4">Video Tile 2</a></h6>
+                                    <p>Write the video discription here</p>
+                                        <div class="overlay">
+                                    <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="images/portfolio/full/item1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
+                                </div>
+                            </div>
+                        </div>
+            </div>
+        </div>
+        <div class="col-xs-3 col-centered">
+            <div class="tile-small">
+                <div class="portfolio-item">
+                            <div class="item-inner">
+                                <img class="img-responsive" src="images/portfolio/recent/item2.png" alt="">
+                                    <h6 class="text-bold"><a href="#c4">Video Tile 3</a></h6>
+                                    <p>Write the video discription here</p>
+                                        <div class="overlay">
+                                    <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="images/portfolio/full/item1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
+                                </div>
+                            </div>
+                        </div>
+            </div>
+        </div>
+        <div class="col-xs-3 col-centered">
+            <div class="tile-small">
+                <a class="mask" href="#">
+                   <div class="portfolio-item">
+                            <div class="item-inner">
+                                <img class="img-responsive" src="images/portfolio/recent/item2.png" alt="">
+                                    <h6 class="text-bold"><a href="#c4">Video Tile 4</a></h6>
+                                    <p>Write the video discription here</p>
+                                        <div class="overlay">
+                                    <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="images/portfolio/full/item1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-xs-3 col-centered">
+            <div class="tile-small">
+                 <div class="portfolio-item">
+                            <div class="item-inner">
+                                <img class="img-responsive" src="images/portfolio/recent/item2.png" alt="">
+                                    <h6 class="text-bold"><a href="#c4">Video Tile 5</a></h6>
+                                    <p>Write the video discription here</p>
+                                        <div class="overlay">
+                                    <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="images/portfolio/full/item1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
+                                </div>
+                            </div>
+                        </div>
+            </div>
+        </div>
+    
+</div>
+    </div>
 
-    <section id="bottom" class="wet-asphalt">
+
+
+    
+<section id="bottom" class="wet-asphalt">
         <div class="container">
-            <div class="row">
+            <div class="rows">
                 <div class="col-md-3 col-sm-6">
                     <h4>About Us</h4>
-                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
-                    <p>Pellentesque habitant morbi tristique senectus.</p>
+                    <p>Add description here.</p>
+                    <p>Add more description here.</p>
                 </div><!--/.col-md-3-->
 
                 <div class="col-md-3 col-sm-6">
@@ -191,46 +477,13 @@
                     </div>
                 </div><!--/.col-md-3-->
 
-                <div class="col-md-3 col-sm-6">
-                    <h4>Latest Blog</h4>
-                    <div>
-                        <div class="media">
-                            <div class="pull-left">
-                                <%= image_tag("blog/thumb1.jpg", :alt => "Course 1") %>
-                            </div>
-                            <div class="media-body">
-                                <span class="media-heading"><a href="#">Pellentesque habitant morbi tristique senectus</a></span>
-                                <small class="muted">Posted 17 Aug 2013</small>
-                            </div>
-                        </div>
-                        <div class="media">
-                            <div class="pull-left">
-                                <%= image_tag("blog/thumb2.jpg", :alt => "Course 1") %>
-                            </div>
-                            <div class="media-body">
-                                <span class="media-heading"><a href="#">Pellentesque habitant morbi tristique senectus</a></span>
-                                <small class="muted">Posted 13 Sep 2013</small>
-                            </div>
-                        </div>
-                        <div class="media">
-                            <div class="pull-left">
-                                <%= image_tag("blog/thumb3.jpg", :alt => "Course 1") %>
-                            </div>
-                            <div class="media-body">
-                                <span class="media-heading"><a href="#">Pellentesque habitant morbi tristique senectus</a></span>
-                                <small class="muted">Posted 11 Jul 2013</small>
-                            </div>
-                        </div>
-                    </div>  
-                </div><!--/.col-md-3-->
-
-                <div class="col-md-3 col-sm-6">
+                <div class="col-md-3 col-sm-6 col-md-offset-3">
                     <h4>Address</h4>
                     <address>
-                        <strong>Blipcraft Inc.</strong><br>
-                        Some where in map<br>
+                        <strong>Blipcraft </strong><br>
+                         No. 260, 3rd Cross, Domlur 2nd Stage, Bangalore, Karnataka 560071<br>
                         Bangalore, IN<br>
-                        <abbr title="Phone">P:</abbr> (123) 456-7890
+                        <abbr title="Phone">Ph:</abbr> +91 90022 96766
                     </address>
                     <h4>Newsletter</h4>
                     <form role="form">
@@ -248,20 +501,6 @@
 
     
 
-<div class="center hero-unit">
-  <h1>Welcome to the Blipcraft</h1>
-
-  <h2>
-    This is the home page for the
-    BlipCraft
-  </h2>
-
-  <%= link_to "Sign up now!", '#', class: "btn btn-large btn-primary" %>
-  
-  <%= image_tag("share_button.png", :alt => "share button") %>
-  <a href="https://twitter.com/blipcraft" class="twitter-follow-button" data-show-count="false">Follow @blipcraft</a>
-
-</div>
 <!--
 <script type="text/javascript">var tinychat = { room: "idonthaveany", join: "auto"};</script><script src="http://tinychat.com/js/embed.js"></script><div id="client"><a href="http://tinychat.com">video chat</a> provided by Tinychat</div>
 
